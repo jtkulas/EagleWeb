@@ -30,7 +30,7 @@ We are responsible for executing various projects. Our main project is developin
 </div>
 <div class="col-sm-6">
 
-### [Current Website](https://eagle-io.weebly.com/)
+### [Actual "Official" Live Website](https://eagle-io.weebly.com/)
 
 <a href = "https://eagle-io.weebly.com/">
 ![](images/eagle.png)

@@ -9,11 +9,18 @@ library(dplyr)
 ```
 
 ```{r, echo=FALSE, warning=FALSE}
-leaflet() %>%
+hc_gdpr <- leaflet() %>%
   setView(lng=-74.1986, lat=40.8643, zoom=16) %>%
   addTiles() %>%
   addMarkers(lng=-74.1986, lat=40.8643, popup="Who dat?")
+
+htmlwidgets::saveWidget(hc_gdpr, "hc_gdpr.html", selfcontained = TRUE, knitrOptions = list())
+
+hc_gdpr
+
 ```
+
+{% include hc_gdpr.html %}
 
 ## Eagle I.O:
 
