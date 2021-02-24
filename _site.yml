@@ -8,4 +8,6 @@ navbar:
       href: Mentor.html
     - text: "Engagement"
       href: engage.html
+    - text: "Contact Us"
+      href: location.html
 output_dir: "docs"

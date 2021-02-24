@@ -1,0 +1,22 @@
+---
+title: "location"
+output: html_document
+---
+
+```{r include=FALSE}
+library(leaflet)
+library(dplyr)
+```
+
+```{r, echo=FALSE, warning=FALSE}
+leaflet() %>%
+  setView(lng=-74.1986, lat=40.8643, zoom=16) %>%
+  addTiles() %>%
+  addMarkers(lng=-74.1986, lat=40.8643, popup="Who dat?")
+```
+
+## Eagle I.O:
+
+1 Normal Avenue  
+Montclair, NJ 07043  
+[eagleio@montclair.edu](mailto: eagleio@montclair.edu)
